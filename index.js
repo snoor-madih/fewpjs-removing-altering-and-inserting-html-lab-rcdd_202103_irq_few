@@ -1,7 +1,8 @@
-// // Write your code here!
-// let name = document.getElementById("main");
-// name.remove();
-// let h1 = document.createElement("h1");
-// h1.setAtribute("id","victory");
-// let newHeader = document.getElementById("victory");
-// // newHeader.innerHTML ="YOUR-NAME is the champion";
+
+
+document.getElementById('main').remove();
+
+var newHeader = document.createElement('h1');
+newHeader.setAttribute("id","victory");
+newHeader.innerHTML = "Snoor";
+document.body.appendChild(newHeader);
